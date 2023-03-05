@@ -8,6 +8,7 @@ class __SPI__
 {
     public:
         __SPI__(volatile uint8_t* spcr, volatile uint8_t* spsr, volatile uint8_t* spdr);
+        ~__SPI__();
         void    begin(void);
         void    write(uint8_t data);
         void    write(uint16_t data);
