@@ -6,6 +6,9 @@
 #include <stdint.h>
 #include <avr/io.h>
 
+/*!
+ * @brief SPI class to control SPI communication.
+ */
 class __SPI__
 {
     public:
